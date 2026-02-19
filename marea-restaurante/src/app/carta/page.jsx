@@ -1,7 +1,9 @@
-export const Carta = () => {
+const Carta = () => {
     return ( 
         <>
-        Hola qué tal
+        Hola hey
         </>
      );
 }
+ 
+export default Carta;
