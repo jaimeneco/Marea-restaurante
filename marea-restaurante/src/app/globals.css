@@ -6,12 +6,14 @@
 }
 
 @theme {
-  /* Vuestros colores personalizados */
-  --color-primary: #d4af37;
-  --color-dark: #121212;
-  --color-cream: #f9f7f2;
-  
-  /* Vuestras fuentes */
+  /* colores personalizados */
+  --color-primario: #0d2b3e;
+  --color-secundario: #3c5a6f;
+  --color-acento: #e6dccf;
+  --color-textoCarbon: #1a1f23;
+  --color-fondo: #f7f9fa;
+
+  /* fuentes */
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 }
