@@ -1,0 +1,70 @@
+[
+  {
+    "categoria": "Entrantes",
+    "platos": [
+      {
+        "id": 1,
+        "nombre": "Ostra del Mediterráneo con espuma de limón",
+        "descripcion": "Ostra fresca servida con una delicada espuma cítrica que realza su sabor natural."
+      },
+      {
+        "id": 2,
+        "nombre": "Tartar de atún rojo con aguacate y sésamo",
+        "descripcion": "Atún rojo de alta calidad, marinado ligeramente, sobre cremoso aguacate y semillas tostadas."
+      },
+      {
+        "id": 3,
+        "nombre": "Vieiras a la plancha con emulsión de ajo negro",
+        "descripcion": "Vieiras doradas al punto, acompañadas de una suave emulsión de ajo negro y aceite de oliva virgen."
+      }
+    ]
+  },
+  {
+    "categoria": "Principales",
+    "platos": [
+      {
+        "id": 4,
+        "nombre": "Pulpo confitado con puré de boniato y pimentón",
+        "descripcion": "Pulpo tierno cocido lentamente, servido sobre un puré dulce con un toque ahumado de pimentón."
+      },
+      {
+        "id": 5,
+        "nombre": "Calamares de playa a la sartén con alioli de hierbas",
+        "descripcion": "Calamares frescos salteados, con alioli aromático que aporta un contraste cremoso y herbáceo."
+      },
+      {
+        "id": 6,
+        "nombre": "Gamba roja de Denia a la plancha",
+        "descripcion": "Gambas rojas mediterráneas ligeramente doradas, conservando su sabor puro y natural."
+      },
+      {
+        "id": 7,
+        "nombre": "Lubina en su jugo con verduras baby",
+        "descripcion": "Filete de lubina cocinado al punto, acompañado de verduras tiernas y su propio jugo concentrado."
+      },
+      {
+        "id": 8,
+        "nombre": "Arroz cremoso de marisco",
+        "descripcion": "Arroz meloso con caldo de marisco intenso, mejillones, almejas y trozos de bogavante."
+      },
+      {
+        "id": 9,
+        "nombre": "Ceviche de langostino con mango y cítricos",
+        "descripcion": "Langostino marinado en cítricos frescos con dados de mango, ideal para limpiar el paladar."
+      }
+    ]
+  },
+  {
+    "categoria": "Postres",
+    "platos": [
+      {
+        "id": 10,
+        "nombre": "Postre: Sorbete de limón y vodka con crumble de almendra",
+        "descripcion": "Final refrescante para limpiar el paladar, con un toque mediterráneo dulce y ácido."
+      }
+    ]
+  },
+  {
+    "precio": "40€"
+  }
+]
