@@ -19,7 +19,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex w-full min-h-screen text-primario">{children}</body>
+      <body className="flex w-full min-h-screen bg-fondo text-primario antialiased">
+        {children}
+      </body>
     </html>
   );
 }
