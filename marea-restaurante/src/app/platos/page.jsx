@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 
 const datosPlatos = [
   {
@@ -32,6 +34,20 @@ const datosPlatos = [
 ];
 
 const Platos = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const maxImagePerPage = 10;
+  const start = (currentPage - 1) * maxImagePerPage;
+  const end = start + maxImagePerPage;
+  const totalPages = Math.ceil(datosPlatos.length / maxImagePerPage);
+  const displayData = datosPlatos.slice(start, end);
+
+  const handleMorePage = () => {
+    if (currentPage < totalPages) setCurrentPage((prev) => prev + 1);
+  };
+  const handleLessPage = () => {
+    if (currentPage > 1) setCurrentPage((prev) => prev - 1);
+  };
+
   return (
     <div className="flex flex-col min-h-screen w-full">
       <header className="flex flex-col bg-primario justify-center ">
@@ -69,7 +85,9 @@ const Platos = () => {
           ))}
         </section>
         <div className="w-full border-t-6 border-t-primario p-4 flex justify-center">
-          <p>1 de 4</p>
+          <p>
+            {currentPage} de {totalPages}
+          </p>
         </div>
       </main>
     </div>
